@@ -6,10 +6,12 @@ function Header() {
           <span className="brand-mark" aria-hidden="true">SSG</span>
         </a>
         <nav className="nav-links" aria-label="Secondary">
-          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#work">Projects</a>
+          <a href="#skills">Skills</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
-          <a href="/resume.pdf" download>Download Resume</a>
+          <a href="/resume.pdf" download>Resume</a>
         </nav>
       </div>
     </header>

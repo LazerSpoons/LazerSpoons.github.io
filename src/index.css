@@ -160,6 +160,14 @@ section {
   margin-top: -2rem;
   text-align: center;
 }
+.hero-name {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #646cff;
+  margin: 0 0 0.4rem 0;
+}
 .hero h1 {
   margin: 0 0 0.75rem 0;
   font-size: clamp(28px, 4.5vw, 48px);
@@ -246,6 +254,7 @@ section {
   flex: 1 1 0;
 }
 .about-text h2,
+.about-text h3,
 .about-text p {
   color: #ffffff;
 }
@@ -256,6 +265,25 @@ section {
 .about-text p {
   font-size: 1.1rem;
   line-height: 1.6;
+}
+.education {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.education h3 {
+  font-size: 1rem;
+  margin: 0 0 0.4rem 0;
+}
+.edu-school {
+  font-weight: 600;
+  font-size: 1rem !important;
+  margin: 0 !important;
+}
+.edu-detail {
+  font-size: 0.9rem !important;
+  opacity: 0.8;
+  margin: 0.3rem 0 0 0 !important;
 }
 .about-image {
   width: 40vw;
@@ -277,6 +305,64 @@ section {
   width: 2em;
   height: 2em;
   display: inline-block;
+}
+
+/* ─── Experience timeline ───────────────────────────────────────────── */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: left;
+}
+.timeline-item {
+  border-left: 2px solid #646cff;
+  padding-left: 1.25rem;
+}
+.timeline-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+}
+.timeline-head h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+.timeline-org {
+  font-weight: 400;
+  color: #9aa0aa;
+}
+.timeline-meta {
+  font-size: 0.85rem;
+  color: #8b8b8b;
+}
+.timeline-points {
+  margin: 0.6rem 0 0 0;
+  padding-left: 1.1rem;
+}
+.timeline-points li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* ─── Skills ────────────────────────────────────────────────────────── */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem 2rem;
+  text-align: left;
+}
+.skills-group h3 {
+  font-size: 1rem;
+  margin: 0 0 0.6rem 0;
+}
+.skills-group .pill-row {
+  justify-content: flex-start;
+  margin-top: 0;
 }
 
 /* ─── Footer ────────────────────────────────────────────────────────── */
@@ -330,8 +416,18 @@ footer {
     border-radius: 12px;
   }
   .about-text h2,
+  .about-text h3,
   .about-text p {
     color: #111827;
+  }
+  .education {
+    border-top-color: rgba(0, 0, 0, 0.1);
+  }
+  .timeline-org {
+    color: #6b7280;
+  }
+  .timeline-meta {
+    color: #6b7280;
   }
   .hero-mark {
     color: rgba(0, 0, 0, 0.06);

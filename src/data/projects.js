@@ -1,26 +1,26 @@
 export const projects = [
   {
-    title: "George Mason University ASSIP Program",
+    title: "BetterTaskManager",
     description:
-      "Worked as an intern at GMU in summer 2024, where I made scripts to analyze Open Source Software activity data using Python and SQL, and wrote an abstract on the relationship between OSS longevity and business model.",
-    skills: ["Python", "SQL", "Data Analysis", "Data Visualization"],
+      "A system task manager with a multithreaded Python backend that filters several hundred to several thousand active processes by name, filepath, or PID. Implements real-time monitoring with in-memory tracking of the most resource-intensive processes.",
+    skills: ["Python", "AWS DynamoDB", "Multithreading", "psutil"],
   },
   {
-    title: "A Note Through Time",
+    title: "Conversational AI Assistant",
     description:
-      "As part of my final HS research class, I made a game to combine my love of History and Programming! Not entirely done (didn't get the time to learn UI), but that's what this website is for.",
-    skills: ["GDScript", "Game Design", "Godot Engine", "Program Organization"],
+      "A terminal-based conversational assistant built on Google's Gemini LLM API with persistent conversation memory across turns. Developed through the UMD ACM chapter.",
+    skills: ["Python", "Gemini API", "LLMs"],
   },
   {
-    title: "React Development",
+    title: "Personal Portfolio Website",
     description:
-      "Made this website using React and Vite to learn more about the UI I wasn't able to learn about in High School, and overall broaden my programming horizons.",
-    skills: ["React", "Vite", "HTML", "CSS/JSX", "UI/UX Design"],
+      "This site — built and deployed with React + Vite, featuring an integrated resume download and a GitHub Actions CI/CD pipeline that automates deployment on every push.",
+    skills: ["React", "Vite", "JavaScript", "GitHub Actions"],
   },
   {
-    title: "Better Task Manager",
+    title: "Historical Game Development",
     description:
-      "Got annoyed at how bad Task Manager was, so made a better one. Currently focused on parsing for specific tasks via any marker (name, filepath, or Process ID).",
-    skills: ["Tkinter GUI", "PSUtil", "PyAutoGui"],
+      "A 2D arcade-style game designed and built in Godot using an agile workflow, combining a love of history and programming. Presented the finished project to industry professionals.",
+    skills: ["GDScript", "Godot", "Game Design"],
   },
 ];
