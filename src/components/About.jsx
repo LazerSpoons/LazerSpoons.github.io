@@ -9,8 +9,7 @@ function About() {
           coding my own projects is a pastime, and I love designing and building
           things that let me learn new skills. Beyond coding, I love reading,
           Arcane, history, and cats. One day, I hope to be making truly
-          impactful discoveries in this field, while surrounded by plenty of
-          kitties.
+          impactful discoveries in this field, with a cat on my lap.
         </p>
 
         <div className="education">
@@ -19,8 +18,8 @@ function About() {
             University of Maryland, College Park — B.S. Computer Science
           </p>
           <p className="edu-detail">
-            Expected May 2028 · Minor in Chinese Language · GPA 3.58 · Dean&apos;s
-            List
+            Expected May 2028 · Minor in Chinese Language · GPA 3.58 ·
+            Dean&apos;s List
           </p>
         </div>
       </div>
